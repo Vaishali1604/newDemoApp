@@ -1,0 +1,19 @@
+
+<!-- <div class="main">
+  <div class="wrap" *ngFor="let user of users">
+    <img [src]="user.avatar_url" alt="avatar">
+    <a href="user.url">{{user.login}}</a>
+    <button class="btn btn-primary">View Profile</button>
+  </div>
+</div> -->
+<div class="row main">
+  <div class="col-md-4 p-2" *ngFor="let user of users">
+    <div class="wrap">
+    <img class="img-width" [src]="user.avatar_url" alt="avatar">
+    {{user.login}}
+    <button class="btn btn-primary" (click)="viewProfile()">View Profile</button>
+  </div>
+</div>
+</div>
+
+<router-outlet></router-outlet>
