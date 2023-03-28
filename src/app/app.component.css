@@ -1,0 +1,16 @@
+.img-width{
+    height: 154px;
+    width: 154px;
+    border-radius: 50%;
+}
+.wrap{
+    height: 452px;
+    width: 460px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 5px;
+}
+.main{
+    background-color: skyblue;
+}
