@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
+import { map, switchMap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +14,7 @@ export class UsersService {
     return this.http.get('https://api.github.com/users')
   }
 
-  getUserDetails(userName:string){
-    return this.http.get(`${this.apiUrl}/${userName}`);
+  getUserDetails(name:string){
+    return this.http.get('https://api.github.com/users/name');
   }
 }
