@@ -1,0 +1,5 @@
+<div class="container" *ngIf="user">
+    <img class="img-width" [src]="user.avatar_url" alt="avatar">
+    <p>{{user.login}}  {{user.name}} </p>
+    <p>{{user.location}} </p>
+</div>

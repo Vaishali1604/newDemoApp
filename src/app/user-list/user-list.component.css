@@ -1,0 +1,20 @@
+.img-width{
+    height: 154px;
+    width: 154px;
+    border-radius: 50%;
+}
+.wrap{
+    height: 50%;
+    width: 50%;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 5px;
+}
+.main{
+    background-color: skyblue;
+}
+.first:first-child{
+    margin-left: 56px;
+}
